@@ -29,4 +29,19 @@ public abstract class Article implements IArticle{
 	@Override
 	public abstract Collection<IDescription> getDescriptions();
 
+	@Override
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	@Override
+	public void setBasePrice(double basePrice) {
+		this.basePrice = basePrice;
+	}
+
+	@Override
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+
 }

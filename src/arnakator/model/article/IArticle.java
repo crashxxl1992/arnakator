@@ -19,6 +19,12 @@ public interface IArticle {
 	public long getId();
 	
 	/**
+	 * 
+	 * @param id the id to set
+	 */
+	public void setId(long id);
+	
+	/**
 	 *
 	 * @return the base price (before any operation) of the article.
 	 */
@@ -26,9 +32,21 @@ public interface IArticle {
 	
 	/**
 	 * 
+	 * @param basePrice the basePrice to set
+	 */
+	public void setBasePrice(double basePrice);
+	
+	/**
+	 * 
 	 * @return the remaining quantity of article that can be ordered.
 	 */
 	public int getQuantity();
+	
+	/**
+	 * 
+	 * @param quantity the quantity to set
+	 */
+	public void setQuantity(int quantity);
 	
 	/**
 	 * 
