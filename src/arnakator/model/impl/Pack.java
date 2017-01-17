@@ -1,10 +1,10 @@
-package arnakator.model.article.impl;
+package arnakator.model.impl;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import arnakator.model.article.IArticle;
-import arnakator.model.article.IDescription;
+import arnakator.model.IArticle;
+import arnakator.model.IDescription;
 
 /**
  * A pack is an article that can contain several other articles.

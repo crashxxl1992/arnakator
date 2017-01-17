@@ -1,4 +1,4 @@
-package arnakator.model.article;
+package arnakator.model;
 
 import java.util.Collection;
 
@@ -29,6 +29,19 @@ public interface IArticle {
 	 * @return the base price (before any operation) of the article.
 	 */
 	public double getBasePrice();
+	
+	
+	/**
+	 * 
+	 * @return the actual price
+	 */
+	public double getPrice();
+	
+	/**
+	 * 
+	 * @param price set the actual price. Generally it should be settled according to basePrice
+	 */
+	public void setPrice(double price);
 	
 	/**
 	 * 

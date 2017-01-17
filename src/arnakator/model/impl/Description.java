@@ -1,6 +1,6 @@
-package arnakator.model.article.impl;
+package arnakator.model.impl;
 
-import arnakator.model.article.IDescription;
+import arnakator.model.IDescription;
 
 public class Description implements IDescription{
 

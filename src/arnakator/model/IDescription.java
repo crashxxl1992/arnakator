@@ -1,4 +1,4 @@
-package arnakator.model.article;
+package arnakator.model;
 
 /**
  * Represent a description (title and description of the article)

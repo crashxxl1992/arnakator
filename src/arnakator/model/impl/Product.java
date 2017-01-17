@@ -1,9 +1,9 @@
-package arnakator.model.article.impl;
+package arnakator.model.impl;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import arnakator.model.article.IDescription;
+import arnakator.model.IDescription;
 
 /**
  * A product is a simple article.
