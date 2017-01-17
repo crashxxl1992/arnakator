@@ -11,7 +11,7 @@ import java.util.Collection;
  * @author Julien Prudhomme
  *
  */
-public interface IArticle {
+public interface IArticle extends Cloneable{
 	/**
 	 * 
 	 * @return the unique id that identify an article.
@@ -68,4 +68,6 @@ public interface IArticle {
 	 * The nexts can be description of other articles associated with this.
 	 */
 	public Collection<IDescription> getDescriptions();
+	
+	public IArticle clone();
 }

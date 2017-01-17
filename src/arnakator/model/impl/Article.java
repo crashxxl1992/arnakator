@@ -5,8 +5,10 @@ import java.util.Collection;
 import arnakator.model.IArticle;
 import arnakator.model.IDescription;
 
+
 public abstract class Article implements IArticle{
 
+	
 	protected long id;
 	protected double basePrice;
 	protected double price;
@@ -53,6 +55,14 @@ public abstract class Article implements IArticle{
 	@Override
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
+	}
+	
+	public Article clone() {
+		try {
+			return (Article) super.clone();
+		} catch (CloneNotSupportedException e) {
+			return null;
+		}
 	}
 
 }

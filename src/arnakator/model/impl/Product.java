@@ -29,5 +29,7 @@ public class Product extends Article {
 		descriptions.add(description);
 		return descriptions;
 	}
+	
+	
 
 }
